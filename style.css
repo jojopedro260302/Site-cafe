@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+@media (max-width: 768px) {
+  }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #b9afa1;
+  background-image: url(img/Paineifull.png);
+  height: 1300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.alinhamento-logo {
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;;
+}
+
+  .logo {
+    width: 204px;
+    height: 204px;
+    padding-top: 22px;
+}
+
+.pag1 {
+  height: 1200px;
+  position: relative;
+}
+  .titulo {
+    font-size: 46px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 3;
+    font-family: "Italiana", serif;
+  }
+
+  .quadro {
+    width: 1200px;
+    position: absolute;
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 5px;
+    outline: solid 20px #685a4d;
+  }
+
+  .foto-quadro {
+    position: absolute;
+    width: 506px;
+    height: 484px;
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+.img-pag1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+  .img1 {
+    width: 648px;
+    width: 603px;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+}
+  .img2 {
+    width: 648px;
+    width: 603px;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+}
+  .img3 {
+    width: 648px;
+    width: 603px;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cor-pag2 { /*Fundo*/
+  background: url(img/pag2/Background\ Baixo.png);
+  width: 100%;
+  height: 4980px; 
+}
+
+.quadro-menu {
+
+}
+
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    font-style: none;
+    margin-top: 100px;
+}
+  .item-menu {
+    width: 324px;
+    height: 70px;
+    background-color: #ededed;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: underline;
+    font-family: "Ibarra Real Nova", serif;
+}
+
+.retangulo {
+  display: flex;
+  justify-content: space-around;
+} 
+  .comentario1 {
+    width: 680px;
+    height: 150px;
+    background-color: #bca168;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 21px;
+    font-family: "Inria Serif", serif;
+    border-radius: 5px;
+
+  }
+
+.img-pag2 {
+  margin: 50px 0px 150px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  .img4 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .img5 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .img6 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .img7 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .img8 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .img9 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .img10 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .img11 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .img12 {
+    width: 443px;
+    height: 442px;
+    box-shadow: 6px 9px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 5px;
+  }
+
+.comentario2 {
+  position: absolute;
+}
+  .apresentacao {
+    position: relative;
+    top: 100%;
+    left: 139%;
+    width: 300px;
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 46px;
+    color: white;
+    text-decoration: underline;
+  }
+  .mini-texto {
+    margin-top: 20px;
+    position: relative;
+    top: 100%;
+    left: 130%;
+    font-size: 30px;
+    font-family: "Inter", serif;
+    color: #D2A243;
+  }
+
+.sub-titulo {
+  margin: 800px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+  .titulo2 {
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 54px;
+    color: white;
+    text-decoration: underline;
+    padding-bottom: 40px;
+  }
+
+.fundo-menu-pag3 {
+  background-image: url(img/pag3/Background\ cardápio\ \(1\)\ menor.png);
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+  .quadro-menu-pag3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 799px;
+    height: 786px;
+    z-index: 1;
+    filter: drop-shadow(14px 28px 10px rgba(0, 0, 0, 0.3));
+  }
+
+  .menu-pag3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .borda-pag3 {
+    width: 559px;
+    height: 555px;
+    text-align: center;
+  }
+    .img1-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+    .img2-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+    .img3-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+    .img4-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+    .img5-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+    .img6-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+    .img7-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+    .img8-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+    .img9-pag3 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 2px;
+    }
+
